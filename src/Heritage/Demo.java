@@ -28,6 +28,11 @@ class B extends A {
         System.out.println("Plus config B");
     }
 
+    public void show2(){
+        System.out.println("in show 2");
+    }
+
+
     /*public B(){
         //super(5);
         System.out.println("in B");
@@ -67,6 +72,7 @@ public class Demo {
         B obj = new B();
         obj.show();
         obj.config();
+        obj.show2();
 
     }
 }
