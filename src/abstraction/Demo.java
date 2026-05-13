@@ -19,7 +19,7 @@ abstract class BMW extends Car{
 
 }
 
-class AdvBMW extends BMW{
+class AdvBMW extends BMW{  //classe conctrete
     @Override
     public void drive() {
         System.out.println("Driving BMW");
